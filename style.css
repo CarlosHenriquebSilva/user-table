@@ -1,0 +1,23 @@
+.user-table{
+    width: 400px;
+    margin: auto;
+    border-spacing: 0 0;
+    border-collapse: collapse;
+}
+.user-table td, 
+.user-table th{
+    border: 1px solid black;
+    padding: 10px 5px;
+    min-width: 120px;
+}
+.user-table th{
+    background-color: grey;
+    color: white;
+    /*border-color: black; CASO PRECISE ALTERAR A COR DA BORDA*/
+}
+.user-table tbody tr:nth-child(even){
+    background-color: #e2e2e2;
+}
+/*.user-table td{
+    text-align: left;
+} PARA CENTRALIZAR OU POR DE LADO O TEXTO DENTRO DA TABELA*/
